@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>desafio</OriginalElement>
+  <nodes>
+    <node x="134.0" y="-55.5">desafio.interfaces.ReprodutorInterface</node>
+    <node x="375.0" y="-55.5">desafio.interfaces.NavegadorInterface</node>
+    <node x="-103.0" y="140.0">desafio.entidade.Iphone</node>
+    <node x="-100.0" y="-55.5">desafio.interfaces.AparelhoInterface</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="desafio.entidade.Iphone" target="desafio.interfaces.NavegadorInterface" relationship="REALIZATION">
+      <point x="0.0" y="-140.0" />
+      <point x="-3.0" y="120.0" />
+      <point x="477.0" y="120.0" />
+      <point x="0.0" y="55.5" />
+    </edge>
+    <edge source="desafio.entidade.Iphone" target="desafio.interfaces.AparelhoInterface" relationship="REALIZATION">
+      <point x="0.0" y="-140.0" />
+      <point x="0.0" y="55.5" />
+    </edge>
+    <edge source="desafio.entidade.Iphone" target="desafio.interfaces.ReprodutorInterface" relationship="REALIZATION">
+      <point x="0.0" y="-140.0" />
+      <point x="-3.0" y="120.0" />
+      <point x="237.0" y="120.0" />
+      <point x="0.0" y="55.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.5" showDependencies="false" x="248.0" y="192.0" />
+  <SelectedNodes>
+    <node>desafio.interfaces.NavegadorInterface</node>
+    <node>desafio.interfaces.ReprodutorInterface</node>
+    <node>desafio.entidade.Iphone</node>
+    <node>desafio.interfaces.AparelhoInterface</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
